@@ -40,3 +40,13 @@ class QxsSpider(scrapy.Spider):
         item['name'] = response.xpath('/html/body/div[5]/div[2]/div/div[2]/h1/text()').extract()
         item['ad_img'] = response.xpath('/html/body/div[5]/div[3]/div[2]/div[1]/div[2]/div[2]/p/img/@src').extract()
         yield item
+
+
+
+
+ nohup python3 -m scrapy crawl qxs &
+
+scrapy
+requests
+beautifulsoup4
+
