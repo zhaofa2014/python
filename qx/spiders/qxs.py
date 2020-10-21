@@ -44,9 +44,9 @@ class QxsSpider(scrapy.Spider):
 
 
 
- nohup python3 -m scrapy crawl qxs &
-
-scrapy
-requests
-beautifulsoup4
+# nohup python3 -m scrapy crawl qxs &
+#
+# scrapy
+# requests
+# beautifulsoup4
 
